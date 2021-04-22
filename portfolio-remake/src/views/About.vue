@@ -1,6 +1,7 @@
 <template>
-    <nav class="navbar bg-dark">
-    </nav>
+    <div>
+        ABOUT
+    </div>
 </template>
 
 <script>
@@ -10,9 +11,5 @@ export default {
 </script>
 
 <style scoped>
-
-div {
-    height: 100px;
-}
 
 </style>
