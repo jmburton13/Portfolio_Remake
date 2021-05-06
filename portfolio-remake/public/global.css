@@ -1,31 +1,31 @@
-bg-light {
-    background-color: #efeff1;
+.bg-eggshell {
+    background-color: #efeff1 !important;
 }
 
-bg-lightblue {
+.bg-lightblue {
     background-color: #0488cc;
 }
 
-bg-darkblue {
-    background-color: #066d9d;
+.bg-darkblue {
+    background-color: #066d9d !important;
 }
 
-bg-lightgreen {
+.bg-lightgreen {
     background-color: #5ffb72;
 }
 
-text-light {
-    background-color: #efeff1;
+.text-eggshell {
+    color: #efeff1;
 }
 
-text-lightblue {
-    background-color: #0488cc;
+.text-lightblue {
+    color: #0488cc;
 }
 
-text-darkblue {
-    background-color: #066d9d;
+.text-darkblue {
+    color: #066d9d;
 }
 
-text-lightgreen {
-    background-color: #5ffb72;
+.text-lightgreen {
+    color: #5ffb72;
 }
