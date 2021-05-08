@@ -7,10 +7,11 @@
                     Projects
                 </button>
                 <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-                    <li><router-link :to="{ name: 'about' }" class="text-lightblue p-0 m-0">About</router-link></li>
-                    <li><router-link :to="{ name: 'projects' }" class="text-lightblue p-0 m-0">Projects</router-link></li>
-                    <li><router-link :to="{ name: 'inspiration' }" class="text-lightblue p-0 m-0">Inspiration</router-link></li>
-                    <li><router-link :to="{ name: 'contact' }" class="text-lightblue p-0 m-0">Contact</router-link></li>
+                    <li><router-link :to="{ name: 'xtourney' }" class="text-lightblue p-0 m-0">X-Tourney</router-link></li>
+                    <li><router-link :to="{ name: 'tenmo' }" class="text-lightblue p-0 m-0">Tenmo</router-link></li>
+                    <li><router-link :to="{ name: 'vendingmachine' }" class="text-lightblue p-0 m-0">Vending Machine</router-link></li>
+                    <li><router-link :to="{ name: 'piglatintranslator' }" class="text-lightblue p-0 m-0">Pig Latin Translator</router-link></li>
+                    <li><router-link :to="{ name: 'dungeongenerator' }" class="text-lightblue p-0 m-0">Random Dungeon Generator</router-link></li>
                 </ul>
             </div>
             <div class="dropdown me-3 mobile-only">
@@ -31,10 +32,11 @@
                         Projects
                     </button>
                     <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton3">
-                        <li><router-link :to="{ name: 'about' }" class="text-lightblue p-0 m-0">About</router-link></li>
-                        <li><router-link :to="{ name: 'projects' }" class="text-lightblue p-0 m-0">Projects</router-link></li>
-                        <li><router-link :to="{ name: 'inspiration' }" class="text-lightblue p-0 m-0">Inspiration</router-link></li>
-                        <li><router-link :to="{ name: 'contact' }" class="text-lightblue p-0 m-0">Contact</router-link></li>
+                        <li><router-link :to="{ name: 'xtourney' }" class="text-lightblue p-0 m-0">X-Tourney</router-link></li>
+                        <li><router-link :to="{ name: 'tenmo' }" class="text-lightblue p-0 m-0">Tenmo</router-link></li>
+                        <li><router-link :to="{ name: 'vendingmachine' }" class="text-lightblue p-0 m-0">Vending Machine</router-link></li>
+                        <li><router-link :to="{ name: 'piglatintranslator' }" class="text-lightblue p-0 m-0">Pig Latin Translator</router-link></li>
+                        <li><router-link :to="{ name: 'dungeongenerator' }" class="text-lightblue p-0 m-0">Dungeon Generator</router-link></li>
                     </ul>
                 </div>
                 <router-link :to="{ name: 'inspiration' }" class="text-lightblue p-0 m-0">Inspiration</router-link>
@@ -63,6 +65,10 @@ export default {
 
 img {
     height: 100px;
+}
+
+li {
+    margin-left: 5px;
 }
 
 a {
