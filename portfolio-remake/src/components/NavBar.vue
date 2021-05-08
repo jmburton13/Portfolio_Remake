@@ -75,4 +75,10 @@ button {
     color: #0488cc;
 }
 
+button:click {
+    color: #0488cc !important;
+
+}
+
+
 </style>
