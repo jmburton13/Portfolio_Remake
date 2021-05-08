@@ -3,7 +3,7 @@
 }
 
 .bg-lightblue {
-    background-color: #0488cc;
+    background-color: #0488cc !important;
 }
 
 .bg-darkblue {
@@ -11,33 +11,33 @@
 }
 
 .bg-lightgreen {
-    background-color: #5ffb72;
+    background-color: #5ffb72 !important;
 }
 
 .text-eggshell {
-    color: #efeff1;
+    color: #efeff1 !important;
 }
 
 .text-lightblue {
-    color: #0488cc;
+    color: #0488cc !important;
 }
 
 .text-darkblue {
-    color: #066d9d;
+    color: #066d9d !important;
 }
 
 .text-lightgreen {
-    color: #5ffb72;
+    color: #5ffb72 !important;
 }
 
 @media (min-width: 767.98px) {
     .mobile-only {
-        display: none;
+        display: none !important;
     }
 }
 
 @media (max-width: 767.98px) {
     .expanded-only {
-        display: none;
+        display: none !important;
     }
 }

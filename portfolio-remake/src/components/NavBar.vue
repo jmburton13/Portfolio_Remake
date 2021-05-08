@@ -44,13 +44,15 @@
             </div>
         </nav>
         <div class="socials bg-darkblue w-100">
-            SOCIALS
+            <socials />
         </div>
     </div>
 </template>
 
 <script>
+import Socials from './Socials.vue'
 export default {
+  components: { Socials },
     
 }
 </script>
@@ -81,10 +83,9 @@ button {
     color: #0488cc;
 }
 
-button:click {
-    color: #0488cc !important;
 
-}
+
+
 
 
 </style>
