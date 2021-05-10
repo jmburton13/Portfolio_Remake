@@ -18,3 +18,8 @@ export default {
 </script>
 
 <style>
+    i {
+        height: 25px;
+        width: 25px;
+    }
+</style>
