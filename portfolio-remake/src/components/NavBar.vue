@@ -50,8 +50,17 @@
                         <li><router-link :to="{ name: 'dungeongenerator' }" class="text-lightblue p-0 m-0">Dungeon Generator</router-link></li>
                     </ul>
                 </div>
+                <div class="dropdown" style="display: inline">
+                    <button class="btn btn-secondary dropdown-toggle bg-eggshell border-0" type="button" id="dropdownMenuButton3" data-bs-toggle="dropdown" aria-expanded="false">
+                        Game Design
+                    </button>
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton3">
+                        <li><router-link :to="{ name: 'thecrew' }" class="text-lightblue p-0 m-0">The Crew</router-link></li>
+                        <li><hr class="dropdown-divider"></li>
+                    </ul>
+                </div>
                 <router-link :to="{ name: 'inspiration' }" class="text-lightblue p-0 m-0">Inspiration</router-link>
-                <router-link :to="{ name: 'contact' }" class="text-lightblue p-0 m-0">Contact</router-link>
+                <router-link :to="{ name: 'contact' }" class="text-lightblue mx-2">Contact</router-link>
             </div>
         </nav>
         <div class="socials bg-darkblue w-100">

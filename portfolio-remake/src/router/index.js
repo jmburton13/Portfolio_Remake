@@ -9,6 +9,7 @@ import PigLatinTranslator from '../views/Projects/PigLatinTranslator.vue';
 import Tenmo from '../views/Projects/Tenmo.vue';
 import VendingMachine from '../views/Projects/VendingMachine.vue';
 import XTourney from '../views/Projects/XTourney.vue';
+import TheCrew from '../views/Game Design/TheCrew.vue';
 
 Vue.use(Router);
 
@@ -59,6 +60,11 @@ const router = new Router({
             path: '/projects/xtourney',
             name: 'xtourney',
             component: XTourney
+        },
+        {
+            path: '/gamedesign/thecrew',
+            name: 'thecrew',
+            component: TheCrew
         },
     ]
 });
